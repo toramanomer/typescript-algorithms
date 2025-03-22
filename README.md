@@ -3,6 +3,8 @@
 1. [Linear Search](#linear-search)
 2. [Jump Search](#jump-search)
 3. [Binary Search](#binary-search)
+4. [Interpolation Search](#interpolation-search)
+5. [Exponential Search](#exponential-search)
 
 # Searching Slgorithms
 
@@ -41,3 +43,12 @@ Interpolation search is a searching algorithm that is used to search for a targe
 
 -   **Best Case:** **O(1)** (Target found on first guess)
 -   **Worst Case:** **O(log log n)** (Assuming uniform distribution)
+
+## Exponential Search
+
+Exponential search is a searching algorithm used to find the position of a target element in a **sorted array** by progressively doubling the size of the search range until the target is within that range. Once the range is found, Binary Search is applied to find the exact index of the target.
+
+### Time Complexity
+
+-   **Best Case:** **O(log n)**
+-   **Worst Case:** **O(log n)**
