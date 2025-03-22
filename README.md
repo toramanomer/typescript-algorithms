@@ -32,3 +32,12 @@ Binary search is a searching algorithm that find the desiired element in a **sor
 
 -   **Best Case:** **O(1)** (Element is in the middle)
 -   **Worst Case:** **O(log n)** (Element at the end or not present)
+
+## Interpolation Search
+
+Interpolation search is a searching algorithm that is used to search for a target value in a **uniformly distributed sorted array** by estimating the position of the target based on its value.
+
+### Time Complexity
+
+-   **Best Case:** **O(1)** (Target found on first guess)
+-   **Worst Case:** **O(log log n)** (Assuming uniform distribution)
